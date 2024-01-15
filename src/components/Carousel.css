@@ -1,1 +1,53 @@
 /* write your carousel css in this file */
+div#home {
+    display: flex;
+    justify-content: center;
+}
+
+#left, #right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    cursor: pointer;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.696);
+    padding: 0.3rem;
+}
+
+#carouselImage {
+    height: 70vh;
+    /* width: 70vw; */
+    width: 31.5vw;
+}
+
+#content > div, h1 {
+    color: black;
+    background-color: rgba(255, 255, 255, 0.648);
+    font-family: cursive;
+    padding: 0.3rem 1.5rem 0.3rem 1.5rem;
+    width: fit-content;
+    margin: 15vh auto 10vh auto;
+    font-size: 20px;
+    border-radius: 10px;
+    font-weight: 900;
+}
+
+h1 {
+    font-size: 45px;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+span {
+    color: white;
+    margin-top: 4vh;
+    font-family: monospace;
+    font-size: large;
+    background-color: rgba(0, 0, 0, 0.23);
+    padding: 0.3rem 1rem 0.3rem 1rem;
+    border-radius: 5px;
+}
